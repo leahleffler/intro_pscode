@@ -1,4 +1,19 @@
 # Client Task C #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+BEGIN PackageScanningDevice
+
+MAX_PACKAGES_PER_CASE = 50
+PRODUCTS_PER_PACKAGE = 2
+
+INITIALIZE totalProducts 
+INITIALIZE totalPackages
+
+Print numbers from 2 to 50, counting by twos
+TotalProducts = TotalProducts + PRODUCTS_PER_PACKAGE
+    
+PRINT "Total products scanned"
+PRINT "Total packages scanned" 
+ 
+END 
 

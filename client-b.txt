@@ -1,4 +1,20 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+BEGIN MapApplication
 
+INITIALIZE a map
+INITIALIZE a user start location 
+INITIALIZE a destination 
+
+FUNCTION
+Get user from point A to point B
+
+MAP = large warehouse
+List of locations = locations
+Coordinates = North, South, East, West
+
+FUNCTION
+ Find_Shortest_Path (start location, end location)
+
+END

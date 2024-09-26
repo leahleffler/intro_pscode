@@ -1,4 +1,22 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+BEGIN NumberGuessingGame
+DISPLAY "Type in a secret number between 1 and 10. You have three guesses."
+(Secret>10) OR (Secret<1)
+DISPLAY "Type in a number between 1-10"
+DISPLAY "Guess a number. You have three guesses."
 
+If  (Guess=Secret) then		
+DISPLAY "You are correct"
+
+If (Guess>Secret) then
+DISPLAY "Too big"
+
+If (Guess<Secret) then
+DISPLAY "Too small"
+
+WHILE (NOT(Guess=Secret) )	
+WHILE three chances
+
+END
